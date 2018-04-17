@@ -1,0 +1,12 @@
+[Service]
+ExecStart=/usr/local/bin/nodescan -d eth0 -l /var/run
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nodescan
+User=root
+Group=root
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

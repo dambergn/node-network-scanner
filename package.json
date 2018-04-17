@@ -1,0 +1,25 @@
+{
+  "name": "node-network-scanner",
+  "version": "1.0.0",
+  "description": "node network scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dambergn/node-network-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dambergn/node-network-scanner/issues"
+  },
+  "homepage": "https://github.com/dambergn/node-network-scanner#readme",
+  "dependencies": {
+    "local-network-scanner": "^0.1.1",
+    "node-libnmap": "^0.2.15",
+    "nodescan": "^0.7.1"
+  }
+}
